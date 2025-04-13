@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "src/index.ts",
   "description": "Typescript Playground",
+  "license": "ISC",
+  "type": "module",
   "scripts": {
     "build": "npx tsc",
     "dev": "ts-node src/index.ts"
@@ -11,6 +13,9 @@
     "@eslint/js": "^9.24.0",
     "@types/node": "^22.14.1",
     "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "prettier": "3.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.29.1"

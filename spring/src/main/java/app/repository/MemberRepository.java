@@ -1,0 +1,1 @@
+package app.repository;public interface MemberRepository {}

@@ -1,0 +1,1 @@
+package app.domain;public class Member {}

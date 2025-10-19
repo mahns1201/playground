@@ -1,0 +1,1 @@
+package datastructure.list;public interface MyList<E> {    void add(E e);    void add(E e, int idx);    void printAll();    int indexOf(E e);    E set(E e, int idx);    E get(int idx);    E remove(int idx);}

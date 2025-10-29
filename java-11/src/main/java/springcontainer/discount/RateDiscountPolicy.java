@@ -1,0 +1,1 @@
+package springcontainer.discount;import springcontainer.member.Grade;import springcontainer.member.Member;public class RateDiscountPolicy implements DiscountPolicy {    private final int DISCOUNT_RATE = 10;    @Override    public int discount(Member member, int price) {        return member.getGrade() == Grade.VIP ? price * DISCOUNT_RATE / 100 : 0;    }}

@@ -1,0 +1,1 @@
+package spring.playground.discount;import spring.playground.member.Grade;import spring.playground.member.Member;public class FixDiscountPolicy implements DiscountPolicy {    private static final int DISCOUNT_AMOUNT = 1000;    @Override    public int discount(Member member, int price) {        return member.getGrade() == Grade.VIP ? DISCOUNT_AMOUNT : 0;    }}

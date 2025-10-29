@@ -1,0 +1,1 @@
+package spring.playground.member;public enum Grade {    BASIC,    VIP}

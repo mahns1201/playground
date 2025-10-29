@@ -1,0 +1,1 @@
+package spring.playground.discount;import spring.playground.member.Member;public interface DiscountPolicy {    int discount(Member member, int price);}

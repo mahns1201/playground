@@ -1,1 +1,0 @@
-package app.service;public class MemberServiceTest {}

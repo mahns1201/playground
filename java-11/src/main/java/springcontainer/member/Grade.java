@@ -1,0 +1,1 @@
+package springcontainer.member;public enum Grade {    BASIC,    VIP}
